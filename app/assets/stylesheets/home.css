@@ -2,9 +2,30 @@
   Place all the styles related to the matching controller here.
   They will automatically be included in application.css.
 */
+body {
+  background: #eee url(/assets/light_checkered_tiles.png) repeat;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: tahoma,arial,sans-serif;
+}
+h1 {
+  font-size: 3em;
+}
 #profile {
   width: 800px;
   margin: 0 auto;
-  background-color: #eee;
   padding: 20px;
+  background-color: #eee;
+}
+
+body form {
+  color: #666;
+  font-size: 3em;
+  width: 600px;
+  margin: 0 auto;
+}
+body form input {
+  font-size: 1em;
+  color: #666;
 }

@@ -1,14 +1,15 @@
 #profile
+  %h1 Schlurp!
   - if !@twitter_profile
     %p We're sorry, but it looks like Twitter user isn't found, or we've hit the API limit. Try again later.
   - else
     - if @twitter_profile.url
-      %h1
+      %h2
         = image_tag @twitter_profile.profile_image_url
         = link_to @twitter_profile.name, @twitter_profile.url
     - else
-      %h1= @twitter_profile.name
+      %h2= @twitter_profile.name
     #twitpics
-      %h2 Pictures from ze Webs
+      %h3 Pictures from ze Webs
       - @social_images.each do |pic|
         = pic.html_safe
