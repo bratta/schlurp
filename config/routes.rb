@@ -1,4 +1,7 @@
 Schlurp::Application.routes.draw do
+  root :to => 'home#index'
+  match '/profile' => 'home#profile'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
