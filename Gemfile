@@ -3,10 +3,17 @@ source :rubygems
 source 'http://rubygems.org'
 
 gem 'rails', '3.1.1'
-gem "sqlite3"
 gem "haml-rails"
 gem "rest-client"
 gem "json"
+
+group :production do
+  gem 'pg'
+end
+
+group :development, :test do
+  gem 'sqlite3'
+end
 
 group :assets do
   gem 'sass-rails',   '~> 3.1.4'

@@ -3,6 +3,7 @@
 *.swp
 *.swo
 config/database.yml
+config/yfrog.yml
 db/*.sqlite3
 log/*.log
 tmp/**/*

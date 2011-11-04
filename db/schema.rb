@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111104012149) do
+ActiveRecord::Schema.define(:version => 20111104020715) do
 
   create_table "twitters", :force => true do |t|
     t.string   "screen_name"
@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(:version => 20111104012149) do
     t.string   "profile_background_image_url"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "url"
   end
 
 end
