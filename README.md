@@ -6,7 +6,7 @@ This app is a mashup of Twitter, Twitpic and yFrog, written for the Ruby Midwest
 
 ## Run:
 
-  http://schlurp.heroku.com
+  http://schlurp.herokuapp.com
 
 ## Install:
 
