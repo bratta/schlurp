@@ -6,26 +6,26 @@ This app is a mashup of Twitter, Twitpic and yFrog, written for the Ruby Midwest
 
 ## Run:
 
-  http://schlurp.herokuapp.com
+    http://schlurp.herokuapp.com
 
 ## Install:
 
-  git clone https://bratta@github.com/bratta/schlurp.git
-  cd schlurp
-  gem install bundler rails
-  bundle
-  rake db:migrate
-  cp config/yfrog.yml.example config/yfrog.yml
-  # EDIT config/yfrog.yml and add your API key
-  rails s
+    git clone https://bratta@github.com/bratta/schlurp.git
+    cd schlurp
+    gem install bundler rails
+    bundle
+    rake db:migrate
+    cp config/yfrog.yml.example config/yfrog.yml
+    # EDIT config/yfrog.yml and add your API key
+    rails s
 
 Then in your browser, go to:
 
-  http://localhost:3000/
+    http://localhost:3000/
 
 and enter a twitter handle, or alternatively, go directly to:
 
-  http://localhost:3000/profile?t=TWITTER_HANDLE
+    http://localhost:3000/profile?t=TWITTER_HANDLE
 
 
 # LICENSE
